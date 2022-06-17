@@ -133,5 +133,9 @@
 
 - [Bump zip4j from 2.7.0 to 2.9.1](https://github.com/fanyong920/jvppeteer/commit/5e0bbeb5651d67c0fdd2d1f4c187d24a8ed1dfcc)
 
-  
+### Version Release 1.1.6-SNAPSHOT
 
+- [添加StandardEnvironment实现，提供获取Env和Jvm参数的能力](https://github.com/fanyong920/jvppeteer/commit/80d0790e256e6148da52bbcbf39a41e2ec6d846a)
+- [添加ConnectionOptions配置，支持指定CDPSession等待OnMessage响应的超时时间](https://github.com/fanyong920/jvppeteer/commit/f91952873593af403c5f9343f7c486844f80120a)
+- [#109](https://github.com/fanyong920/jvppeteer/issues/109) [修复CDPSession在send过程中有可能出现线程无限wait的问题](https://github.com/fanyong920/jvppeteer/commit/6e6686627e3f8efbf62b3b40ea5455b89143e595)
+- [#113](https://github.com/fanyong920/jvppeteer/issues/113) [修复WebSocket意外关闭或连接失败时，线程无法终止的问题](https://github.com/fanyong920/jvppeteer/commit/f95f11369bf3b93ebd5afbd81cff23389a47bb91)
